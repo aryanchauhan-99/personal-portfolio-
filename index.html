@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a href="#" class="logo">My<span>Portfolio.</span></a>
+    <button id="menuBtn" aria-label="Toggle menu">☰</button>
+    <nav id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">HELLO, I'M</p>
+        <h1>Your Name</h1>
+        <h2>Diploma CS Graduate</h2>
+        <p class="intro">
+          I am a Computer Science fresher interested in
+          web development and software technology.
+          I enjoy learning new skills and building projects.
+        </p>
+        <div class="actions">
+          <a href="#projects" class="btn">Explore Projects ↗</a>
+          <a href="#contact" class="btn secondary">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-art">
+        <div class="orb"> &lt;/&gt; </div>
+        <span class="floating">HTML · CSS · JS</span>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <p class="eyebrow">GET TO KNOW ME</p>
+      <h2>About <span>Me</span></h2>
+      <p class="section-text">
+        I have completed my Diploma in Computer Science.
+        I have learned Core Java, Python basics, HTML, CSS,
+        JavaScript and SQL basics. I am building projects
+        to improve my practical knowledge.
+      </p>
+    </section>
+
+    <section id="skills" class="section">
+      <p class="eyebrow">WHAT I KNOW</p>
+      <h2>My <span>Skills</span></h2>
+      <div class="skills-grid">
+        <div class="skill">☕ Core Java</div>
+        <div class="skill">🐍 Python Basics</div>
+        <div class="skill">🌐 HTML5</div>
+        <div class="skill">🎨 CSS3</div>
+        <div class="skill">⚡ JavaScript</div>
+        <div class="skill">🗄️ SQL Basics</div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <p class="eyebrow">WHAT I'VE BUILT</p>
+      <h2>My <span>Projects</span></h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-icon">🎓</div>
+          <h3>Student Management System</h3>
+          <p>Console application to add, view, search,
+             update and delete student records.</p>
+          <div class="tags"><span>Java</span><span>OOPs</span></div>
+          <a href="#" class="project-link">GitHub link coming soon ↗</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon">💰</div>
+          <h3>Personal Expense Tracker</h3>
+          <p>Web app to add and delete expenses and
+             view total spending using SQLite storage.</p>
+          <div class="tags"><span>Python</span><span>Flask</span><span>SQLite</span></div>
+          <a href="#" class="project-link">GitHub link coming soon ↗</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon">💻</div>
+          <h3>Personal Portfolio</h3>
+          <p>A responsive portfolio website showcasing
+             my skills, introduction and projects.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+          <a href="#home" class="project-link">You're viewing it ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <p class="eyebrow">LET'S CONNECT</p>
+      <h2>Contact <span>Me</span></h2>
+      <p class="section-text">
+        I am looking forward to learning and exploring
+        entry-level opportunities in technology.
+      </p>
+      <a class="btn" href="mailto:yourmail@example.com">
+        Send Me an Email ↗
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Your Name · Built with HTML, CSS & JavaScript</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
